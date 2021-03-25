@@ -12,7 +12,7 @@ System.register(["./View"], function (exports_1, context_1) {
             NegociacoesView = class NegociacoesView extends View_1.View {
                 template(model) {
                     return `
-    <table class="table table-hover table-bordered">
+    <table class="table table-hover table-bordered table-striped table-hover">
         <thead>
             <tr>
                 <th>DATA</th>

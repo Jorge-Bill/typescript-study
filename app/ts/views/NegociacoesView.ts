@@ -4,7 +4,7 @@ import { Negociacoes } from '../models/index';
 export class NegociacoesView extends View<Negociacoes> {
   template(model: Negociacoes): string {
     return `
-    <table class="table table-hover table-bordered">
+    <table class="table table-hover table-bordered table-striped table-hover">
         <thead>
             <tr>
                 <th>DATA</th>
